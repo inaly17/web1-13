@@ -9,7 +9,7 @@ function setCookie(c_name,value,expiredays){
   
   var extime=new Date().getTime();
   var cltime=new Date(extime+(60*60*24*1000*expiredays));
-  var exdate=cletime.toUTCString();
+  var exdate=cltime.toUTCString();
   
   var s="";
   s+=c_name+"="+escape(value);
