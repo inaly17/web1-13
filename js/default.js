@@ -1,6 +1,3 @@
-
-
-
 var thmubs=document.querySelectorAll('.thumb');
 for(idx in thmubs){
   thmubs[idx].onclick=function(){
@@ -54,7 +51,7 @@ function setCookie(c_name,value,expiredays){
   //クッキーの削除
   document.getElementById('remove_cookie').onsubmit=function(){
     setCookie('lastDate',"",0);
-  };
+  }
 
 
 
@@ -91,7 +88,7 @@ var update = function(){
   var target = new Date(2020,7,24,0,0,0,0);
   var diff = target.getTime() - now.getTime();
   var counter = separate_time(diff);
-  document.getElementById('countdown').textContent=
+  document.getElementById('countdown').textContent =
     '東京オリンピックまであと　'+
       counter[3]+'日'+
       counter[2]+'時間'+
