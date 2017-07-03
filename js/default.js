@@ -19,7 +19,7 @@ function setCookie(c_name,value,expiredays){
   }else{
     s+=";";
   }
-  
+}
   function getCookie(c_name){
     var st="";
     var ed="";
