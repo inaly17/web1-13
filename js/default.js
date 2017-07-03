@@ -100,7 +100,7 @@ var update = function(){
 refresh();
 }
 
-var refresh=function(){
+var refresh= function(){
   setTimeout(update,1000);
 }
 
