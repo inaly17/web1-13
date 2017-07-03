@@ -1,3 +1,6 @@
+var update=function(){
+
+
 var thmubs=document.querySelectorAll('.thumb');
 for(idx in thmubs){
   thmubs[idx].onclick=function(){
@@ -83,7 +86,7 @@ var separate_time=function(time){
   
 
 
-var update=function(){
+
   var now =new Date();
   var target=new Date(2020,7,24,0,0,0,0);
   var diff=target.getTime()-now.getTime();
